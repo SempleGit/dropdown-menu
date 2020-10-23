@@ -3,7 +3,6 @@ html {
 }
 
 .dropdown-container {
-  /* display: inline-flex; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   list-style-type: none;
@@ -14,11 +13,12 @@ html {
 .menu-title {
   background-color: #2D3142;
   color: rgba(240, 244, 255, 0.959);
+  cursor: pointer;
   font-family: 'Carter One', cursive;
   margin: 2px;
   padding: 5px;
   text-align: left;
-  font-size: 1rem;   
+  font-size: 1rem;  
 }
 
 .dropdown-selector{

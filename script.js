@@ -1,12 +1,14 @@
 "use strict";
 let test;
 const toggleMenu = (e) => {
+  test = e.target;
   if (e.target.classList.contains("dropdown-container")) {
     return;
   }
   
-  const menu = e.target.closest(".dropdown-selector");
-  menu.children[1].classList.toggle("clicked");
+  // Select the closest dropdown container and get the menu element.
+  const menu = e.target.closest(".dropdown-selector").querySelector(".dropdown-menu");
+  menu.classList.toggle("clicked");
 }
 
 const dropdownMenu = (() => {
