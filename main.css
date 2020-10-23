@@ -12,14 +12,17 @@ html {
 .menu-title {
   background-color: #2D3142;
   color: rgba(240, 244, 255, 0.959);
+  font-family: 'Carter One', cursive;
   margin: 2px;
   padding: 10px 75px 10px 5px;
   text-align: left;
-  font-size: 1rem;   
+  font-size: 1.25rem;   
 }
 
 .dropdown-selector{
   position: relative;
+  border-right: 1px solid black;
+  border-left: 1px solid black;  
 }
 
 .dropdown-menu {
@@ -36,6 +39,7 @@ html {
 .dropdown-item {
   background-color: #F7FFF7;
   border: 1px solid #595959;
+  font-family: 'Amiri', serif;
   padding: 5px;
   text-align: right;  
 } 
