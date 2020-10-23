@@ -3,7 +3,9 @@ html {
 }
 
 .dropdown-container {
-  display: inline-flex;
+  /* display: inline-flex; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   list-style-type: none;
   padding: 2px;
   margin: 20px; 
@@ -14,9 +16,9 @@ html {
   color: rgba(240, 244, 255, 0.959);
   font-family: 'Carter One', cursive;
   margin: 2px;
-  padding: 10px 75px 10px 5px;
+  padding: 5px;
   text-align: left;
-  font-size: 1.25rem;   
+  font-size: 1rem;   
 }
 
 .dropdown-selector{
@@ -40,7 +42,7 @@ html {
   background-color: #F7FFF7;
   border: 1px solid #595959;
   font-family: 'Amiri', serif;
-  padding: 5px;
+  padding: 0 2px;
   text-align: right;  
 } 
 
